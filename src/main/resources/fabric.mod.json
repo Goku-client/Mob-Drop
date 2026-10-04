@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "luckymobs",
+  "version": "${version}",
+  "name": "Lucky Mobs",
+  "description": "Kill a mob: 50% chance of OP loot, 50% chance of a bad surprise.",
+  "authors": ["Goku"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.luckymobs.LuckyMobsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
